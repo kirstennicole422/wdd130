@@ -1,0 +1,36 @@
+.callout {
+	max-width: 310pt;
+    margin: 10pt;
+    border: 10px solidrgb(145, 165, 194)7;
+    padding: 10 px;
+    background-color: #224477;
+    color: white;
+}
+
+.callout img {
+    float: right;
+    margin-left: 5pt;
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    margin-right: 10px;
+    border: 5px solid #7e8692;
+    padding: 5px #9ca6b5;
+    background-color: #8ca3c6;
+    width: 125px;
+    height: 125px;
+}
+
+blockquote {
+	margin: 10px;
+    padding: 10pt;
+}
+
+cite {
+    /* float: right; */
+	display: block;
+    border-top: dashed 2px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    text-align: right;
+    font-size: 16pt;
+}
