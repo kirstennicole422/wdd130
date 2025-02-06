@@ -1,6 +1,11 @@
+:root{
+    --dark-color: #122027;
+    --padding: 30px;   
+}
+
 nav {
-    background-color: #122027;
-    padding: 10px;
+    background-color: var(--dark-color);
+    padding: var(--padding);
 }
 
 main {
@@ -26,7 +31,7 @@ aside img {
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: var(--padding);
 }
 
 h1 {
@@ -36,8 +41,8 @@ h1 {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
-    padding: 2px;
+    border: 1px solid var(--dark-color);
+    padding: var(--);
     box-shadow: 0 0 30px gray;
 }
 
@@ -47,6 +52,6 @@ p {
 
 footer {
     margin-top: 20px;
-    border-top: 3px solid #122027;
+    border-top: 3px solid var(--dark-color);
     text-align: center;
 }
