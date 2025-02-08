@@ -3,13 +3,13 @@
     --secondary-color: #AFD6FE;
     --accent1-color: #239CB3;
     --accent2-color: #B2830C ;
+    max-width: 1000px;
 }
 
 
 h2 {
     font-family: "Shadows Into Light", "Lucida Handwriting", cursive;
     color: var(--accent1-color);
-
 }
 
 p {
@@ -23,41 +23,67 @@ socials {
 
 hero {
     position: relative;
+    width: 500x;
+    
 }
 
 .hero h1 {
+    z-index: 100;
+    position: absolute;
+    margin:5% 0% 10% 0%;
     width: 100%;
     text-align: center;
     /* background-color: #239CB3; */
     /* color: var(--primary-color); */
-    z-index: 100;
+    /* z-index: 100; */
     background-color: var(--accent1-color);
-    position: absolute;
-    /* opacity: */
+    
+    opacity: 75%;
     /* size: 1000px; */
     font-family:  "Shadows Into Light", "Lucida Handwriting", cursive;
 }
 
 .hero article {
-    z-index: 10;
-        position: absolute;
-        background-color: var(--primary-color);
-        box-sizing: border-box 100%;
-        /* padding: 4px var(--primary-color); */
-        size: 10px;
+    display: inline-block;
+    position: absolute;
+    z-index: 100;
+    margin: 10% 0% 10% 0%;
+    /* float: middle; */
+    background-color: var(--primary-color);
+    box-sizing: border-box 100%;
+    /* padding: 4px var(--primary-color); */
+    width: 100%;
+    height: 300px;
+    opacity: 75%;
+}
+
+.hero article img{
+    z-index: 1000;
+    float: right;
+    position: relative;
+    margin: 30px 30px 30px 30px;
+    box-sizing: border-box;
+    
+    opacity: 100%;
+    width: 240px;
+    height: 240px;
 }
 
 .hero img{
-    z-index: 1000;
-    /* position: absolute; */
-    align-items: center;
-    /* box-sizing: border-box 100%; */
-    /* bottom: 50px; */
-    /* top: 50px; */
-    /* left: 50px; */
-    /* right */
+    z-index: 1;
+    position: absolute;
+    /* float: center; */
+    /* align-items: center; */
     display: block;
-    width: 50%;
-    height: auto;
-    float: right;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    /* height: auto;    */
+}
+
+.hero article p {
+    z-index: 100;
+    color:#AFD6FE;
+    margin: 30px;
+    font-family: Roboto;
 }
