@@ -1,0 +1,63 @@
+:root {
+    --primary-color: #061A40;
+    --secondary-color: #AFD6FE;
+    --accent1-color: #239CB3;
+    --accent2-color: #B2830C ;
+}
+
+
+h2 {
+    font-family: "Shadows Into Light", "Lucida Handwriting", cursive;
+    color: var(--accent1-color);
+
+}
+
+p {
+    font-family: Roboto;
+    color: var(--primary-color);
+}
+
+socials {
+    text-decoration: none;
+}
+
+hero {
+    position: relative;
+}
+
+.hero h1 {
+    width: 100%;
+    text-align: center;
+    /* background-color: #239CB3; */
+    /* color: var(--primary-color); */
+    z-index: 100;
+    background-color: var(--accent1-color);
+    position: absolute;
+    /* opacity: */
+    /* size: 1000px; */
+    font-family:  "Shadows Into Light", "Lucida Handwriting", cursive;
+}
+
+.hero article {
+    z-index: 10;
+        position: absolute;
+        background-color: var(--primary-color);
+        box-sizing: border-box 100%;
+        /* padding: 4px var(--primary-color); */
+        size: 10px;
+}
+
+.hero img{
+    z-index: 1000;
+    /* position: absolute; */
+    align-items: center;
+    /* box-sizing: border-box 100%; */
+    /* bottom: 50px; */
+    /* top: 50px; */
+    /* left: 50px; */
+    /* right */
+    display: block;
+    width: 50%;
+    height: auto;
+    float: right;
+}
