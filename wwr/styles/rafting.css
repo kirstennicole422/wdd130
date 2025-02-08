@@ -10,6 +10,7 @@ header, main, footer {
     max-width: 1000px;
     margin: 0 auto;
 }
+
 h2 {
     font-family: "Shadows Into Light", "Lucida Handwriting", cursive;
     color: var(--accent1-color);
@@ -26,14 +27,16 @@ socials {
 
 .hero {
     position: relative;
-    width: 500x;
+    width: 1000px;
+    height: 500px;
 }
 
 .hero h1 {
     z-index: 100;
     position: absolute;
-    margin:5% 0% 0% 0%;
+    /* box-sizing: border-box; */
     width: 100%;
+    margin: 5% 0 0 0%;
     text-align: center;
     background-color: var(--accent1-color);
     opacity: 75%;
@@ -41,21 +44,20 @@ socials {
 }
 
 .hero article {
-    max-width: 1000px;
     position: absolute;
     z-index: 100;
-    margin: 10% 5% 10% 5%;
+    margin: 15% 5% 10% 5%;
     background-color: var(--primary-color);
     box-sizing: border-box;
-    width: 100%;
-    height: 300px;
+    width: 90%;
+    height: 60%;
     opacity: 75%;
 }
 
 .hero article img{
     float: right;
     position: relative;
-    margin: 30px 30px 30px 30px;
+    margin: 30px 30px 30px 0;
     box-sizing: border-box;
     opacity: 100%;
     width: 240px;
@@ -70,6 +72,7 @@ socials {
     width: 1000px;
     object-fit: cover;
     padding-bottom: 500px gray;
+    margin: 0 auto;
 }
 
 .hero article p {
@@ -79,13 +82,7 @@ socials {
     font-family: Roboto;
 }
 
-.break article{
-    z-index: 1;
-    height: 1300px;
-    background-color:#B2830C;
-    position:absolute;
-}
-main section {
+/* main section {
     position: relative;
-    padding-top: 500px;
-}
+    padding-top: 500px; */
+/* } */
