@@ -71,7 +71,7 @@ socials {
     height: 500px;
     width: 1000px;
     object-fit: cover;
-    padding-bottom: 500px gray;
+    padding-bottom: 500px;
     margin: 0 auto;
 }
 
