@@ -57,7 +57,7 @@ socials {
 .hero article img{
     float: right;
     position: relative;
-    margin: 30px 30px 30px 0;
+    margin: 30px;
     box-sizing: border-box;
     opacity: 100%;
     width: 240px;
