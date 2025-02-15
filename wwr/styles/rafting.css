@@ -20,10 +20,9 @@ h2 {
 p {
     font-family: Roboto;
     color: var(--primary-color);
-    grid-column: 2 / 3;
 }
 
-.socials {
+..socials {
     text-decoration: none;
     display: flex;
     justify-content: end;
@@ -49,6 +48,7 @@ footer p {
     grid-column: 2 / 3;
     text-align: center;
 }
+
 .hero {
     position: relative;
     width: 100vw;
