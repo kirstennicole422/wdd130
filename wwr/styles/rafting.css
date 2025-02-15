@@ -160,7 +160,9 @@ nav a:visited {
 .adventure figure {
     margin: 0;
     max-height: 15vw;
-
+    font-family: roboto;
+    color: var(--primary-color);
+    text-align: center;
 }
 
 .adventure figure img {
