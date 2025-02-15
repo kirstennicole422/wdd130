@@ -22,7 +22,7 @@ p {
     color: var(--primary-color);
 }
 
-..socials {
+.socials {
     text-decoration: none;
     display: flex;
     justify-content: end;
