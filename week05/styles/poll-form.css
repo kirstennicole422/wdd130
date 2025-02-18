@@ -1,0 +1,93 @@
+body {
+    font-family: roboto;
+    font-size: 20px;
+}
+
+header{
+    font-size: 30px;
+    color: darkblue;
+    padding: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 95%;
+    margin: 10px;
+    padding: 15px;
+    border: 30px solid darkblue;
+    border-radius: 50px;
+    background-color: lightgray;
+    color: darkblue;
+    display: grid;
+    gap: 30px;
+}
+
+footer {
+    color: darkblue;
+    padding: 30px;
+    text-align: center;
+}
+
+fieldset {
+    display: grid;
+    gap: 15px ;
+}
+
+legend {
+    margin: 10px 0 10px 0;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    padding: 5px;
+    font-size: 25px;
+}
+
+label {
+    text-align: right;
+    padding-right: 30px ;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+    height: 30px;
+    vertical-align: bottom;
+    /* align: right; */
+}
+
+button {
+    color: darkblue;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 10px
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 10px
+}
