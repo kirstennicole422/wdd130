@@ -185,3 +185,121 @@ nav a:visited {
     position: relative;
     padding-top: 500px; 
 }*/
+
+/* form {
+    display: grid;
+    gap: 15px ;
+    grid-template-columns: 1fr;
+} */
+
+fieldset {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    text-align: end;
+}
+
+.message {
+    grid-column: 1 / 3;
+    gap: 30px;
+    text-align: left;
+}
+
+.message h2{
+    text-align: center;
+    border: solid var(--primary-color);
+    border-radius: 40px;
+    padding: 2px;
+    margin-right: 20px;
+}
+/* .message legend {
+    text-align: center;
+} */
+
+.purpose {
+    grid-column: 1 / 3;
+    gap: 30px;
+    text-align: center;
+}
+
+/* input[type="radio"] {
+    align: right;
+} */
+
+.wireframe{
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.employees {
+    width: 100%;
+    /* max-width: 20vw; */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.contact h2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    border: solid var(--primary-color);
+    border-radius: 40px;
+    padding: 2px;
+    margin-right: 20px;
+}
+
+.address, .phone, .email{
+    margin: 0;
+    max-height: 15vw;
+    font-family: roboto;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+
+.address {
+    grid-column: 1 / 2;
+}
+
+.phone {
+    grid-column: 2 / 3;
+}
+
+.email {
+    grid-column-start: 3 / 4;
+}
+
+.location {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    /* padding: 30px; */
+    text-align: center;
+}
+
+.employees figure img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.employees figure {
+    display: grid;
+}
+
+.employees h2{
+    grid-column: 1 / 5;
+    text-align: center;
+    border: solid var(--primary-color);
+    border-radius: 40px;
+    padding: 2px;
+    margin-right: 20px;
+}
