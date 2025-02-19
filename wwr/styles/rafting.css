@@ -275,7 +275,7 @@ fieldset {
 }
 
 .email {
-    grid-column-start: 3 / 4;
+    grid-column: 3 / 4;
 }
 
 .location {
