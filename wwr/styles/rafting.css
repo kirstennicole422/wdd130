@@ -264,7 +264,7 @@ input[type="radio"] {
 
 .contact {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     padding: 20px;
     margin-right: 20px;
@@ -280,10 +280,9 @@ input[type="radio"] {
 }
 
 .contact h2 {
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column: 1 / 3;
+    /* grid-column-end: 4; */
     text-align: center;
-    border: solid var(--primary-color);
     border-radius: 40px;
     padding: 2px;
     margin-right: 20px;
@@ -303,18 +302,26 @@ input[type="radio"] {
 }
 
 .phone {
-    grid-column: 2 / 3;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
 }
 
 .email {
-    grid-column: 3 / 4;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
 }
 
 .location {
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column: 2 / 3;
+    grid-row: 2 / 5;
     /* padding: 30px; */
     text-align: center;
+    /* width:400px; */
+}
+
+.location iframe {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .employees figure img {
