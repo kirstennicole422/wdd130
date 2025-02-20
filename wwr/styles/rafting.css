@@ -7,10 +7,12 @@
     max-width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
+    --fancy-font: "Shadows Into Light", "Lucida Handwriting", cursive;
+    --plain-font: Roboto;
 }
 
 h2 {
-    font-family: "Shadows Into Light", "Lucida Handwriting", cursive;
+    font-family: var(--fancy-font);
     display: flex;
     margin: 15px auto;
     align-items: center;
@@ -25,7 +27,7 @@ h2 {
 }
 
 p {
-    font-family: Roboto;
+    font-family: var(--plain-font);
     color: var(--primary-color);
 }
 
@@ -40,7 +42,7 @@ p {
 footer {
     /* display: inline; */
     font-size: 20px;
-    font-family: "Shadows Into Light", "Lucida Handwriting", cursive; ;
+    font-family: var(--fancy-font);
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     gap: 30px;
@@ -67,7 +69,7 @@ h1 {
     margin: 5vw 0 0 0%;
     text-align: center;
     background-color: var(--accent1-color);
-    font-family: "Shadows Into Light", "Lucida Handwriting", cursive;
+    font-family: "var(--fancy-font)";
     font-size: 36px;
 }
 
@@ -119,7 +121,7 @@ main h1 {
     z-index: 100;
     color:#AFD6FE;
     margin: 30px;
-    font-family: Roboto;
+    font-family: var(--plain-font);
     font-size: 1.2rem;
 }
 
@@ -135,7 +137,7 @@ nav {
     /* flex-wrap: wrap; */
     justify-content: space-around;
     align-items: center;
-    font-family: "Shadows Into Light", "Lucida Handwriting", cursive;
+    font-family: var(--fancy-font);
     font-size: 25px;
     font-weight: bold;
     /* color: var(--primary-color) */
@@ -169,7 +171,8 @@ nav a:visited {
 .adventure figure {
     margin: 0;
     max-height: 15vw;
-    font-family: roboto;
+    font-family: var(--plain-font);
+    ;
     color: var(--primary-color);
     text-align: center;
 }
@@ -203,7 +206,7 @@ fieldset {
     gap: 30px;
     text-align: left;
     font-size: 16px;
-    font-family: roboto;
+    font-family: var(--plain-font);
     color: var(--primary-color);
 }
 
@@ -261,7 +264,7 @@ input[type="radio"] {
 .address, .phone, .email{
     margin: 0;
     max-height: 15vw;
-    font-family: roboto;
+    font-family: var(--plain-font);
     color: var(--primary-color);
     text-align: center;
 }
@@ -342,4 +345,58 @@ textarea {
     grid-column: 1 / 7;
     padding: 10px
     /* grid-row: 3 / 10; */
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: 1 / 5;
+}
+
+/* .trip1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+} */
+
+.trip1, .trip2, .trip3 {
+    display: grid;
+    grid-template-columns: 20px 1fr 1fr 1fr 1fr 20px;
+    gap: 20px;
+}
+
+.trip1 h2, .trip2 h2, .trip3 h2 {
+    grid-column: 1 / 7;
+}
+
+.trip1 img
+.trip1 img, .trip2 img, .trip3 img {
+    grid-column: 2 / 3;
+}
+
+.trip1 p, .trip2 p, .trip3 p {
+    grid-column: 3 / 4;
+}
+
+.trip1 a, .trip2 a, .trip3 a {
+    grid-column: 5 / 6;
+    font-family: var(--fancy-font);
+    font-size: 30px;
+    background-color: var(--accent2-color);
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding: 40px;
+    margin-right: 40px;
+}
+
+.trip1 a:visited, .trip2 a:visited, .trip3 a:visited {
+    color: var(--primary-color);
+}
+
+nav a {
+    color: var(--accent1-color);
+}
+
+nav a:visited {
+    color: var(--primary-color);
 }
