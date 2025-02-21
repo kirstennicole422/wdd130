@@ -365,7 +365,8 @@ textarea {
 .trip1 img, .trip2 img, .trip3 img {
     justify-self: center;
     height: 200px;
-    object-fit: cover
+    object-fit: cover;
+    border: solid var(--primary-color);
 }
 
 .trip1 p {
@@ -397,6 +398,7 @@ textarea {
     text-decoration: none;
     padding: 40px;
     margin-right: 40px;
+    border: solid var(--primary-color);
 }
 
 .trip1 a:visited, .trip2 a:visited, .trip3 a:visited {
