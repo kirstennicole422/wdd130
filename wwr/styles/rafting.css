@@ -422,3 +422,18 @@ textarea {
     justify-self: center;
     margin-top: 50px;
  }
+
+
+ table th {
+    font-family: var(--fancy-font);
+    color: var(--primary-color);
+    width: 300px;
+    font-size: 25px;
+ }
+ table td {
+    align-items: center;
+    font-family: var(--plain-font);
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 18px;
+ }
