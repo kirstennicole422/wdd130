@@ -494,17 +494,13 @@ textarea {
 .home {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap:30px;
+    gap:20px;
     justify-content: center;
+    width: 100%;
 }
 
 .home form h2 {
     grid-column: 1 / 2;
-}
-
-.mail {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
 }
 
 .home form {
@@ -533,6 +529,14 @@ textarea {
     font-family: var(--plain-font);
 }
 
+.mail {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.perfect {
+    grid-column: 2 / 3;
+}
 .perfect a:hover {
     background-color: var(--primary-color);
     color: var(--accent1-color);
