@@ -363,7 +363,7 @@ textarea {
     align-items: center;
 }
 
-.trip1 h2, .trip2 h2, .trip3 h2 {
+.trip1 h3, .trip2 h3, .trip3 h3 {
     grid-column: 1 / 5;
 }
 
@@ -401,10 +401,24 @@ textarea {
     color: var(--primary-color);
 }
 
-nav a {
+/* nav a {
     color: var(--accent1-color);
 }
 
 nav a:visited {
     color: var(--primary-color);
 }
+ */
+
+ h3 {
+    font-family: var(--fancy-font);
+    color: var(--primary-color);
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+    border: solid var(--accent1-color);
+    border-radius: 30px;
+    width: 200px;
+    justify-self: center;
+    margin-top: 50px;
+ }
