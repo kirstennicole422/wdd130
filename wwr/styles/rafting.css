@@ -238,11 +238,6 @@ input[type="radio"] {
     justify-content: right;
 }
 
-.wireframe{
-    color: var(--primary-color);
-    text-align: center;
-}
-
 .contact {
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -436,4 +431,11 @@ textarea {
     color: var(--primary-color);
     text-align: center;
     font-size: 18px;
+ }
+
+ footer a {
+    text-decoration: none;
+    font-family: var(--plain-font);
+    color: var(--primary-color);
+    text-align: center;
  }
