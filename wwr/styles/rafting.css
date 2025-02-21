@@ -24,6 +24,7 @@ h2 {
     border-radius: 40px;
     width: 95%;
     padding: 2px;
+    margin-top: 35px;
 }
 
 p {
@@ -369,20 +370,27 @@ textarea {
 
 .trip1 img, .trip2 img, .trip3 img {
     justify-self: center;
+    height: 200px;
+    object-fit: cover
 }
 
 .trip1 p {
     grid-column: 2 / 3;
     justify-self: center;
-
+    font-family: var(--plain-font);
 }
 
 .trip2 p {
     grid-column: 3 / 4;
+    justify-self: center;
+    font-family: var(--plain-font);
+
 }
 .trip3 p {
     grid-column: 1 / 2;
     margin-left: 40px;
+    font-family: var(--plain-font);
+
 }
 
 .trip1 a, .trip2 a, .trip3 a {
@@ -401,14 +409,6 @@ textarea {
     color: var(--primary-color);
 }
 
-/* nav a {
-    color: var(--accent1-color);
-}
-
-nav a:visited {
-    color: var(--primary-color);
-}
- */
 
  h3 {
     font-family: var(--fancy-font);
