@@ -516,7 +516,7 @@ textarea {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    row-gap: 100;
+    row-gap: 100px;
     justify-content: center;
     align-items: center;
     padding: 20px;
